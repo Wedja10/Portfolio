@@ -1,0 +1,268 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: linear-gradient(90deg, #8360c3, #2ebf91)
+}
+
+.banniere {
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.nom {
+    color: white;
+    font-size: 100px;
+    margin-top: 150px; 
+    margin-bottom: 5px; 
+    justify-content: center;
+    margin-top: 300px;
+    font-family: 'DM Serif Display', serif;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 100px;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+.ligne1 {
+    border: none;
+    border-top: 3px solid white;
+    width: 50%;
+    margin: 5px auto; 
+}
+
+.ligne2{
+    border: none;
+    border-top: 3px solid white;
+    width: 100%;
+    margin: 5px auto;
+}
+
+
+.banniere ul {
+    padding: 0;
+    list-style: none;
+    background-color: #8360c3;
+    text-align: center;
+    border-radius: 5px;
+    padding:0px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.banniere ul li {
+    display: inline-block;
+    width: 150px; 
+    height: 100px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; 
+    text-align: center; 
+    line-height: 100px; 
+    font-size: 23px;
+    font-family: 'Playfair Display', serif;
+}
+
+.banniere ul li:hover {
+    background-color: #2ebf91;
+    color: #000; 
+}
+
+.banniere ul li a {
+    display: block;
+    width: 150px; 
+    height: 100px; 
+    text-align: center; 
+    line-height: 100px; 
+    transition: background-color 0.3s ease;
+    border-radius: 5px; 
+    color: white; 
+    text-decoration: none; 
+}
+
+.images-haut-droite {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 120px; 
+    margin-right: 40px;
+    
+}
+
+.images-haut-droite a {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.images-haut-droite img {
+    width: 50px; 
+    height: 50px;
+}
+
+section {
+    padding: 0;
+    background-color: linear-gradient(90deg, #8360c3, #2ebf91);
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px 0 0; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 200px;
+    margin-top: 500px;
+
+}
+
+
+section > article {
+    background-color: #8360c3;
+    padding: 40px;
+    color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    width: 500px;
+    font-size: 26px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.travaux{
+    height: 100%;
+    width: 92.5%;
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 300px;
+    margin-left: 40px;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: linear-gradient(90deg, #8360c3, #2ebf91);
+    color: white;
+}
+
+.qix-images {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.qix-images img {
+    display: flex;
+    margin-right: 10px; 
+    flex-direction: column;
+}
+
+
+.qix1{
+    margin-bottom: 10px;
+}
+
+.unesco{
+    margin-left: 8%;
+    margin-top: 60px;
+}
+.qix23 {
+    display: flex;
+    flex-direction: column; 
+    margin-right: 300px;
+}
+
+.qix23 img {
+    display: block;
+    margin-bottom: 10px; 
+}
+
+.titre{
+    font-size: 80px;
+    color: #cdcdcd;
+    font-family: 'DM Serif Display', serif;
+    background-color: #8360c3;
+}
+
+.cv{
+    margin-top: 100px;
+}
+
+.contact{
+    font-size: 60px;
+    margin-top: 200px;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+}
+
+.logomail {
+    display: flex; 
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.logotel {
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px; 
+    margin-right: 265px;
+}
+
+.logolin {
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px; 
+    margin-left: 210px;
+}
+
+.logomail img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px; 
+}
+
+.logotel img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px; 
+}
+
+.logolin img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px; 
+    
+}
+
+
+.cont{
+    font-size: 40px;
+    color: white;
+}
+
+ul img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.texte{
+    margin-top: 200px;
+    color: white;
+    font-size: 50px;
+    margin-left: 40px;
+    margin-right: 140px;
+    font-family: 'DM Serif Display', serif;
+}
+  
