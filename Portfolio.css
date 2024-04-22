@@ -14,15 +14,18 @@ body {
     align-items: center; 
 }
 
+.menu{
+    margin-left: 25%;
+    padding-right: 200px;
+}
 
 .nom {
     color: white;
-    font-size: 100px;
-    margin-top: 150px; 
-    margin-bottom: 5px; 
+    vertical-align: auto; 
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 14%;
     font-family: 'DM Serif Display', serif;
+    font-size: 100px;
 }
 
 h2 {
@@ -59,21 +62,16 @@ h2 {
     padding:0px;
     margin: 0;
     display: flex;
-    justify-content: center;
     width: 100%;
+    height: 10.7%;
     position: fixed;
     z-index: 1;
     top: 0;
 }
 
 .banniere ul li {
-    display: inline-block;
-    width: 150px; 
-    height: 100px;
     transition: background-color 0.3s ease;
-    border-radius: 5px; 
-    text-align: center; 
-    line-height: 100px; 
+    border-radius: 5px;  
     font-size: 23px;
     font-family: 'Playfair Display', serif;
 }
@@ -85,33 +83,26 @@ h2 {
 
 .banniere ul li a {
     display: block;
-    width: 150px; 
-    height: 100px; 
-    text-align: center; 
-    line-height: 100px; 
+    width: 150px;   
+    line-height: 90px; 
     transition: background-color 0.3s ease;
     border-radius: 5px; 
     color: white; 
     text-decoration: none; 
 }
 
-.images-haut-droite {
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin-top: 120px; 
-    margin-right: 40px;
-    
+.images-haut-droite{
+    height: 65px;
+    z-index: 1;
+    padding-left: 5px;
+    padding-top: 5.5px;
 }
 
-.images-haut-droite a {
-    display: inline-block;
-    margin-left: 5px;
-}
-
-.images-haut-droite img {
-    width: 50px; 
-    height: 50px;
+.images-haut-droite1{
+    height: 65px;
+    z-index: 1;
+    margin-left: 340px;
+    padding-top: 5.5px;
 }
 
 section {
@@ -145,11 +136,7 @@ section > article {
     height: 100%;
     width: 100%;
     border-radius: 5px;
-    padding: 40px;
-    margin-top: 300px;
-    margin-left: 40px;
-    align-items: center;
-    margin-bottom: 40px;
+    padding: 40px;  
     background-color: linear-gradient(90deg, #8360c3, #2ebf91);
     color: white;
 }
@@ -158,30 +145,29 @@ section > article {
     display: flex;
     align-items: center;
     margin-top: 150px;
-    margin-right: 30%;
 }
 
 .qix-images img {
     display: flex;
     margin-right: 10px; 
     flex-direction: column;
+    justify-content: center;
 }
 
 
 .qix1{
     margin-bottom: 10px;
-    margin-left: -5.5%;
+    margin-left: -1%;
 }
 
 .unesco{
-    margin-left: 8%;
+    margin-left: -1%;
     margin-top: 60px;
-    margin-left: -4%;
 }
 .qix23 {
     display: flex;
     flex-direction: column; 
-    margin-right: 10%;
+    
 }
 
 .qix23 img {
@@ -192,17 +178,16 @@ section > article {
 .titre{
     font-size: 80px;
     color: #cdcdcd;
-    margin-right: 5%;
     font-family: 'DM Serif Display', serif;
     background-color: #8360c3;
 }
 
 .cv{
-    margin-top: 100px;
+    margin-left: 25%;
 }
 
 .contact{
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 200px;
     color: white;
     font-family: 'DM Serif Display', serif;
@@ -211,21 +196,21 @@ section > article {
 .logomail {
     display: flex; 
     align-items: center;
-    margin-top: 20px; 
+    margin-left: 25%;
 }
 
 .logotel {
     display: flex; 
     align-items: center; 
     margin-top: 20px; 
-    margin-right: 265px;
+    margin-left: 25%;
 }
 
 .logolin {
     display: flex; 
     align-items: center; 
     margin-top: 20px; 
-    margin-left: 210px;
+    margin-left: 25%;
 }
 
 .logomail img {
@@ -253,13 +238,7 @@ section > article {
     color: white;
 }
 
-ul img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 0;
-    padding: 0;
-}
+
 
 .texte{
     margin-top: 200px;
