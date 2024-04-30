@@ -94,6 +94,17 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
+.lien-cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 3rem;
+    background: #433633;
+    color: #DECBB7;
+    margin: 2rem auto;
+    border-radius: 20px;
+}
 .partie-droite{
     display: flex;
     flex-direction: column;
@@ -224,8 +235,36 @@ a:hover{
 }
 
 footer{
-    height: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #433633;
+    height: 40%;
 }
+
+footer h1{
+    font-size: 3rem;
+    color: #DECBB7;
+}
+
+.container-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.container-logo a img{
+    width: 100%;
+}
+
+.container-logo a{
+    width: 10%;
+}
+
+
 
 /*Petits écrans************************************************************************************/
 @media screen and (max-width: 900px){
