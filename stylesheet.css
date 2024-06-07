@@ -42,8 +42,12 @@ html, body {
     align-items: center;
     color: #DECBB7;
     font-size: 2vw;
-    padding: 2rem;
+    padding: 3rem;
     width: 5rem;
+}
+
+.nav-bar a{
+    padding-left: 2rem;
 }
 
 .nav-bar ul li:hover{
@@ -331,6 +335,10 @@ footer h1{
     }
     .nav-bar li{
         padding: 2rem;
+    }
+
+    .nav-bar a{
+        padding-left: 0rem;
     }
     .nav-bar li:hover{
         background: #DECBB7;
