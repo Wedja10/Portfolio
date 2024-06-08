@@ -53,6 +53,7 @@ html, body {
 .nav-bar ul li:hover{
     border-radius: 20px;
     background: #F7F0F5;
+    width: 13.5rem;
     color: #433633;
 }
 
